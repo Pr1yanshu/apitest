@@ -1,5 +1,4 @@
 # This file parses the csv file and copies all its content to a postgresql table name 'apitests' 
-import psycopg2
 
 def process_csv(conn, file_obj, table_name):
 	cur = conn.cursor()
